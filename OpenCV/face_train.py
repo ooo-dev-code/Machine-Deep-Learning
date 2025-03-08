@@ -3,7 +3,7 @@ import numpy as np
 import os
 
 people = ["Ben Afflek", "Nelson Mandela", "Squezzie"]
-DIR = r"OpenCV\Photos\train"
+DIR = r"Photos\train"
 
 haar = cv.CascadeClassifier('haar_face.xml')
 features = []
@@ -26,7 +26,7 @@ def create_train():
                 features.append(faces_roi)
                 labels.append(label)
                 
-create_train()
+create_train() 
 
 print(f"Length of the features {len(features)}")
 print(f"Length of the labels {len(labels)}")
