@@ -5,7 +5,7 @@ import os
 people = ["Ben Afflek", "Nelson Mandela", "Squezzie"]
 DIR = r"OpenCV\Photos\train"
 
-haar = cv.CascadeClassifier('OpenCV\Face Recognition\HAAR\haar_face.xml')
+haar = cv.CascadeClassifier('haar_face.xml')
 features = []
 labels = []
 
