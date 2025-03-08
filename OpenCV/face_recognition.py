@@ -18,7 +18,7 @@ cv.imshow("Gray", gray)
 
 faces_rect = haar.detectMultiScale(gray, 1.1, 4)
 
-for (x,y,w,h) in faces_rect:
+for (x,y,w,h) in faces_rect: 
     faces_roi = gray[y:y+h, x:x+w]
     
     label, confidence = face_recognizer.predict(faces_roi)
