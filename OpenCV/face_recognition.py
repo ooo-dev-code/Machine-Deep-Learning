@@ -1,7 +1,7 @@
 import cv2 as cv
 import numpy as np
 
-haar = cv.CascadeClassifier(r'OpenCV\Face Recognition\HAAR\haar_face.xml')
+haar = cv.CascadeClassifier(r'haar_face.xml')
 
 people = ["Ben Afflek", "Nelson Mandela", "Squezzie"]
 # features = np.load("features.npy", allow_pickle=True)
