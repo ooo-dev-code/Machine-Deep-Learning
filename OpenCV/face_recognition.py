@@ -11,7 +11,7 @@ face_recognizer = cv.face.LBPHFaceRecognizer_create()
 
 face_recognizer.read(r'face_trained.yml')
 
-img = cv.imread(r'Photos\val\img2.jpg')
+img = cv.imread(r'Photos\val\example')
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow("Gray", gray)
