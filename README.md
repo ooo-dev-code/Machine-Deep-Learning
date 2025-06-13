@@ -3,7 +3,7 @@ _______________________________
 _______________________________
 # TensorFlow
 
-# Predicting Diabetes
+# Predicting + RNN
 
 <br><a href="https://github.com/ooo-dev-code/Marathon-Analisis"> Simple Analisis link</br>
 
